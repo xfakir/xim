@@ -1,13 +1,13 @@
-package cn.xfakir.xim;
+package cn.xfakir.xim.web;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class XimApplicationTests {
+class XimWebApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }

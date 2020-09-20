@@ -13,10 +13,17 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>xim</name>
     <description>im</description>
+    <packaging>pom</packaging>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
+
+    <modules>
+        <module>xim-common</module>
+        <module>xim-core</module>
+        <module>xim-web</module>
+    </modules>
 
     <dependencies>
         <dependency>
